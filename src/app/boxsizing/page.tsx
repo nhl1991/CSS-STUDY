@@ -1,16 +1,14 @@
 'use client'
 
-import ComputedStyle from "../../Components/Box-Sizing/computedStyle";
+
+import ComputedStyle from "@/components/Box-Sizing/computedStyle";
 import { useBearStore } from "../store";
 
 export default function Home() {
 
   const Bears = useBearStore((state) => state.bears);
   const setBears: () => void = useBearStore((state) => state.increase);
-  function onClickHanlder() {
-
-    setBears();
-  }
+  
 
   return (
     <div className="min-h-screen p-2 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">

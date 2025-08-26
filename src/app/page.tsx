@@ -11,7 +11,7 @@ export default function Page() {
                     <Link className="" href={'/boxsizing'}>BOX-SIZING</Link>
                 </li>
                 <li>
-                    <Link className="" href={'/boxsizing'}>Position</Link>
+                    <Link className="" href={'/viewport-unit'}>Viewport Unit</Link>
                 </li>
 
                 <li>
