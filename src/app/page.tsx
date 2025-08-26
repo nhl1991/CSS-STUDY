@@ -17,6 +17,9 @@ export default function Page() {
                 <li>
                     <Link className="" href={'/grid'}>GRID-LAYOUT</Link>
                 </li>
+                <li>
+                    <Link className="" href={'/clamp'}>clamp</Link>
+                </li>
             </ul>
         </div>
     )
