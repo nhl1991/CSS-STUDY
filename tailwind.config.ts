@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontSize: {
+        fluid: "clamp(1rem, 2vw + 0.5rem, 2rem)",
+      },
     },
   },
   plugins: [],

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 export default function Page() {
-  const [count, setCount] = useState(16); // 초기 항목 개수
+  const [count, setCount] = useState(6); // 초기 항목 개수
   const loaderRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ export default function Page() {
 
   return (
     <div className="w-screen h-screen bg-black p-10 flex items-center justify-center">
-      <div className="w-full h-full max-w-[2560px] max-h-[1440px] overflow-auto grid grid-template-fit gap-2">
+      <div className="w-full h-full max-w-[2560px] max-h-[1440px] overflow-auto grid grid-cols-[repeat(3,minmax(160px,1fr))] grid-rows-[repeat(2,minmax(240px,1fr))] auto-rows-[minmax(240px,1fr)] gap-2">
         {
           Array.from({ length: count }).map((_, i) => (
             <div key={i} className="w-full h-full rounded-2xl p-4">

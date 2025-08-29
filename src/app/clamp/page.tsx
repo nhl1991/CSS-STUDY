@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Page() {
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-center">
@@ -28,6 +30,9 @@ export default function Page() {
           which the value of the property will be assigned if the preferred
           value is greater than this upper bound.`}
         </p>
+      </div>
+      <div className="p-4">
+        <Link id="link_example" className="px-2 py-1 bg-sky-500 hover:bg-sky-600 rounded-xl" href="clamp/examples">Example</Link>
       </div>
     </div>
   );
