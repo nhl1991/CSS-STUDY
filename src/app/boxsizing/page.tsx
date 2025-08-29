@@ -2,12 +2,10 @@
 
 
 import ComputedStyle from "@/components/Box-Sizing/computedStyle";
-import { useBearStore } from "../store";
+
 
 export default function Home() {
 
-  const Bears = useBearStore((state) => state.bears);
-  const setBears: () => void = useBearStore((state) => state.increase);
   
 
   return (
@@ -18,7 +16,7 @@ export default function Home() {
           <p>CSS 박스 모델의 기본값에서, 지정한 너비와 높이는 요소의 콘텐츠 박스 크기에만 적용됩니다. <b>요소에 테두리(border)나 안쪽 여백(padding)이 있으면 너비와 높이에 더해서 화면에 그립니다.</b> 따라서 크기를 설정할 때, 원하는 크기를 얻으려면 테두리나 안쪽 여백을 고려해야 합니다.</p>
         </div>
         <div className="w-full h-96 border-2 rounded border-dotted p-8 text-sm">
-          <p>All the boxes are set to '128px(8rem)'.</p>
+          <p>All the boxes are set to &apos;128px&lsqou;8rem&rsqou;&apos;.</p>
           <div className="w-32 h-32 border-2 p-4 m-4  rounded border-dotted inline-block box-border bg-blue-300">
             BOX-BORDER
           </div>

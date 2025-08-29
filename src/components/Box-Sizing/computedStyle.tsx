@@ -1,8 +1,6 @@
 
 export default function ComputedStyle({ box_sizing, }: Readonly<{ box_sizing: string }>) {
 
-    const borderClass = 'w-full h-full border-2 bg-green-200 p-8 border-black';
-    const noneBorderClass = 'w-full h-full border-2 bg-green-200 p-8';
 
     return (
         <>

@@ -17,7 +17,7 @@ export default function Page() {
           being obscured when all the dynamic browser interfaces are shown. When
           those browser interfaces are hidden, however, there might be extra
           space visible around the element. Therefore, the small
-          viewport-percentage units are "safer" to use in general, but might not
+          viewport-percentage units are &qouts;safer&qouts; to use in general, but might not
           produce the most attractive layout after a user starts interacting
           with the page. The small viewport size is represented by the sv prefix
           and results in the sv* viewport-percentage length units. The sizes of
