@@ -6,7 +6,7 @@ export default function Page() {
 
     return (
         <div className="w-screen h-screen p-12 flex items-center justify-center">
-            <ul>
+            <ul className="flex flex-row">
                 <li>
                     <Link className="" href={'/boxsizing'}>BOX-SIZING</Link>
                 </li>
