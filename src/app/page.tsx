@@ -26,6 +26,11 @@ export default function Page() {
               clamp
             </Link>
           </li>
+          <li>
+            <Link className="" href={"/lp-example-01"}>
+              lp-example-01
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

@@ -5,8 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  
+
   border-color: black;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,7 +19,6 @@
     border-color: white;
   }
 }
-
 
 body {
   color: var(--foreground);
@@ -38,7 +40,7 @@ ul > li {
 }
 
 ul > li:hover {
-  @apply bg-sky-500 cursor-pointer
+  @apply bg-sky-500 cursor-pointer;
 }
 
 .text-heroic {
@@ -47,4 +49,19 @@ ul > li:hover {
 
 .text-description {
   font-size: clamp(0.5rem, 2vw + 0.25rem, 1rem);
+  
+}
+
+
+.text-stroke {
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+}
+
+#bg-mask > div {
+  @apply h-1/3 ;
+}
+
+.blend {
+  @apply mix-blend-lighten text-black bg-white/80;
 }
