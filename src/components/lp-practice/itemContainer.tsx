@@ -22,7 +22,7 @@ export default function ItemContainer() {
     },
     {
       name: {jp:"千葉", en:"Chiba"},
-      src: "/resource/cards/IMG_8445.JPEG",
+      src: "/resource/cards/IMG_8449.JPEG",
       external_url: "https://www.pref.chiba.lg.jp/",
     },
     {

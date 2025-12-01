@@ -8,7 +8,7 @@ export default function ItemCard({
   city: { name: {jp: string, en:string}; src: string; external_url: string };
 }) {
   return (
-    <article className="relative w-72 h-80 flex-shrink-0 rounded-xl overflow-hidden hover:scale-105 transition-all duration-100 ">
+    <article className="relative w-72 h-80 flex-shrink-0 rounded-xl overflow-hidden hover:scale-105 transition-all duration-100 border-2 border-transparent hover:border-zinc-100 ">
       <Image
         src={city.src}
         alt="item image"
